@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="user" label="User" language="en" table="var__m_topic_variable_ffac9a83db1ea300a63a30d8689619b1">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>user</element>
+            <help/>
+            <hint/>
+            <label>User</label>
+            <language>en</language>
+            <name>var__m_topic_variable_ffac9a83db1ea300a63a30d8689619b1</name>
+            <plural>User</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>arnoud.kooi</sys_created_by>
+            <sys_created_on>2018-12-15 10:03:47</sys_created_on>
+            <sys_id>c4bc9647db1ea300a63a30d868961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>User</sys_name>
+            <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+            <sys_update_name>sys_documentation_var__m_topic_variable_ffac9a83db1ea300a63a30d8689619b1_user_en</sys_update_name>
+            <sys_updated_by>arnoud.kooi</sys_updated_by>
+            <sys_updated_on>2018-12-15 10:03:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

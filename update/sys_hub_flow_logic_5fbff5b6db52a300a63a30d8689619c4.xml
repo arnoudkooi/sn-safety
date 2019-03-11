@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">53bff5b6db52a300a63a30d8689619c3</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Safety issue approval">b55e7576db52a300a63a30d8689619a3</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:49</sys_created_on>
+        <sys_id>5fbff5b6db52a300a63a30d8689619c4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_5fbff5b6db52a300a63a30d8689619c4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:20:04</sys_updated_on>
+        <ui_id>1f873a9c-cc2d-4526-8dd4-4c3fdb3294be</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5fbff5b6db52a300a63a30d8689619c4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>5fbff5b6db52a300a63a30d8689619c4</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:49</sys_created_on>
+        <sys_id>1bbff5b6db52a300a63a30d8689619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:49</sys_updated_on>
+        <value>{{29c55ac5-1ab4-4798-81e3-be8d1dbd3019.approval_state}}=approved</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+</record_update>

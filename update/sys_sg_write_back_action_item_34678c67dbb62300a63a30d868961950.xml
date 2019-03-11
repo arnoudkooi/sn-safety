@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>CI QR Scan Writeback</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-01-10 09:00:40</sys_created_on>
+        <sys_id>34678c67dbb62300a63a30d868961950</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>CI QR Scan Writeback</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_34678c67dbb62300a63a30d868961950</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-01-10 09:55:06</sys_updated_on>
+        <table>x_snc_safety_emea_issue</table>
+        <template>cmdb_ci={{CI QR Scan Parameter}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=34678c67dbb62300a63a30d868961950"/>
+</record_update>

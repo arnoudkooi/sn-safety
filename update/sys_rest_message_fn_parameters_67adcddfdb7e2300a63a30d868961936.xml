@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>latlng</name>
+        <rest_message_function display_value="get">502d4d9fdb7e2300a63a30d86896199c</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-01-09 19:29:36</sys_created_on>
+        <sys_id>67adcddfdb7e2300a63a30d868961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>latlng</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_67adcddfdb7e2300a63a30d868961936</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-01-09 19:29:36</sys_updated_on>
+        <type>string</type>
+        <value>52.2942203,4.869355</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

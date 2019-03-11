@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_safety_emea.geolocationResolveLatLng</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>geolocationResolveLatLng</name>
+        <script><![CDATA[function geolocationResolveLatLng(){
+	var grGeoHistory = new GlideRecord('geo_history');
+	grGeoHistory.addQuery("user", gs.getUserID());
+	grGeoHistory.orderByDesc('sys_created_on');
+	grGeoHistory.setLimit(1);
+	grGeoHistory.query();
+	var latlng;
+	if (grGeoHistory.next()){
+		if (grGeoHistory.getValue('location'))
+			return grGeoHistory.getValue('location');
+		
+		latlng = grGeoHistory.getValue('latitude') + ',' +
+		grGeoHistory.getValue('longitude') ;
+		var location = _resolveAndCreateLocation(latlng);
+		grGeoHistory.setValue('location', location);
+		grGeoHistory.update();
+		return location;
+	}
+}
+
+
+function _resolveAndCreateLocation(latlng){
+	var r = new sn_ws.RESTMessageV2('x_snc_safety_emea.gmaps_geocoder', 'get');
+	r.setStringParameterNoEscape('latlng', latlng);
+	
+	var response = r.execute();
+	var responseBody = response.getBody();
+	var httpStatus = response.getStatusCode();
+	var loc = JSON.parse(responseBody).results[0].formatted_address;
+	
+	var grLoc = new GlideRecord('cmn_location');
+	grLoc.initialize();
+	grLoc.setValue('name',loc);
+	grLoc.setValue('latitude',latlng.split(",")[0]);
+	grLoc.setValue('longitude',latlng.split(",")[1]);
+	grLoc.setValue('contact',gs.getUserID()); /*
+	grLoc.setValue('state','');
+	grLoc.setValue('zip','');
+	grLoc.setValue('country','');
+	grLoc.setValue('city','');
+	grLoc.setValue('street',''); */
+	return grLoc.insert();
+}
+
+
+
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-01-09 20:15:56</sys_created_on>
+        <sys_id>7b6851d7dbbe2300a63a30d8689619bf</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>geolocationResolveLatLng</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_script_include_7b6851d7dbbe2300a63a30d8689619bf</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-01-09 21:15:47</sys_updated_on>
+    </sys_script_include>
+</record_update>

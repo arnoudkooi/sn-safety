@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_application">
+    <sys_sg_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>true</available_offline>
+        <default>false</default>
+        <description>Report and check status of Safety Issues</description>
+        <icon display_value="thumbs-down">c7e78ebedb52a300a63a30d8689619d5</icon>
+        <name>Safety Issue</name>
+        <order/>
+        <roles>x_snc_safety.user</roles>
+        <sys_class_name>sys_sg_application</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:54:35</sys_created_on>
+        <sys_id>17e70afedb52a300a63a30d86896191a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Safety Issue</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_application_17e70afedb52a300a63a30d86896191a</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-01-31 11:17:02</sys_updated_on>
+    </sys_sg_application>
+    <sys_translated_text action="delete_multiple" query="documentkey=17e70afedb52a300a63a30d86896191a"/>
+</record_update>

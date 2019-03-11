@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2019-02-07 15:23:32</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>rene.deboer</sys_created_by>
+        <sys_created_on>2019-01-21 19:25:30</sys_created_on>
+        <sys_id>cd100b8fdb0b230038b652f8f4961956</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>558398D6C3A14A6FD4F8824A91D6758006785FED6F9D8DA2BF997D0EF6445F9C</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application Internal">b7e9f41477382300258da2e2c8106152</sys_push_application_id>
+        <sys_push_platform_id display_value="Apple">20e71f30ff0002009738ffffffffff6b</sys_push_platform_id>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_cd100b8fdb0b230038b652f8f4961956</sys_update_name>
+        <sys_updated_by>rene.deboer</sys_updated_by>
+        <sys_updated_on>2019-02-07 15:23:32</sys_updated_on>
+        <sys_user_id display_value="Rene de Boer">4d1b9a57dbe12300a63a30d8689619ae</sys_user_id>
+        <token>558398D6C3A14A6FD4F8824A91D6758006785FED6F9D8DA2BF997D0EF6445F9C</token>
+    </sys_push_notif_app_install>
+</record_update>

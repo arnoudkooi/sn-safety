@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Add  Picture">a965d68fdb87230038b652f8f4961979</button>
+        <item_parameter display_value="Worknote">fe675203dbc7230038b652f8f496190a</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-01-21 16:28:49</sys_created_on>
+        <sys_id>20479ecfdb87230038b652f8f49619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fe675203dbc7230038b652f8f496190a</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_20479ecfdb87230038b652f8f49619a9</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-01-21 16:28:49</sys_updated_on>
+        <ui_parameter display_value="Worknote">fa1612cfdb87230038b652f8f49619d4</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

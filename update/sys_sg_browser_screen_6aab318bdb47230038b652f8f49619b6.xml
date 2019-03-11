@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_browser_screen">
+    <sys_sg_browser_screen action="INSERT_OR_UPDATE">
+        <application_roles>x_snc_safety.user</application_roles>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <external_browser>false</external_browser>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="file-alt">48bd9607dbc7230038b652f8f496192d</icon>
+        <name>Catalog Request</name>
+        <order>30</order>
+        <parent>97e70afedb52a300a63a30d86896191b</parent>
+        <parent_table>sys_sg_folder</parent_table>
+        <relative_url>false</relative_url>
+        <roles_override/>
+        <sys_class_name>sys_sg_browser_screen</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-01-21 14:27:03</sys_created_on>
+        <sys_id>6aab318bdb47230038b652f8f49619b6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Catalog Request</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_browser_screen_6aab318bdb47230038b652f8f49619b6</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-01-23 11:31:48</sys_updated_on>
+        <url>https://platformemea.service-now.com/sp</url>
+    </sys_sg_browser_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=6aab318bdb47230038b652f8f49619b6"/>
+</record_update>

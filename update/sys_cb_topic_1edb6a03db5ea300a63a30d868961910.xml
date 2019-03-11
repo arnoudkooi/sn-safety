@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <connect_queue/>
+        <description/>
+        <graph>{
+  "graph_api_version": "1.0.10",
+  "goals": {
+    "88e57738a03344ff99a94fbc45d7f61f": {
+      "id": "88e57738a03344ff99a94fbc45d7f61f",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "ed4a1176b24d4817b92e7c42f3dcfe55": {
+          "id": "ed4a1176b24d4817b92e7c42f3dcfe55",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": "Hi Do you want to know your issues",
+            "mode": "simple"
+          }
+        },
+        "b73d0cb7801b42d584d28b8f7cdc7ce6": {
+          "id": "b73d0cb7801b42d584d28b8f7cdc7ce6",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "2673dc9393d74ef2b781145c41c38f1b": {
+          "id": "2673dc9393d74ef2b781145c41c38f1b",
+          "stepType": "RecordOutput",
+          "name": "Show issue",
+          "variableId": "1292217876114d6abf67e6be97334b3b",
+          "mode": "variable",
+          "tableName": "x_snc_safety_emea_issue",
+          "fields": [
+            "number",
+            "state",
+            "category",
+            "short_description",
+            "opened_at",
+            "sys_updated_on"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "variable",
+            "value": ""
+          }
+        },
+        "ddd282e6ae5447dbb0c4c404b0aac53e": {
+          "id": "ddd282e6ae5447dbb0c4c404b0aac53e",
+          "stepType": "LookupRecord",
+          "name": "Lookup Issues",
+          "condition": {
+            "mode": "glide_query",
+            "value": "opened_by={{vaInputs.user}}^active=true"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "1292217876114d6abf67e6be97334b3b"
+        },
+        "f4ff5c52f260414480e78001d1ec0028": {
+          "id": "f4ff5c52f260414480e78001d1ec0028",
+          "stepType": "Prompt",
+          "name": "Issue Action",
+          "prompt": {
+            "value": "You can add comment or close the issue by typing a comment. Hit enter for no action",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "6b5c710041c64cb2a7b9046a1cd02693"
+        },
+        "b0c8eb69da28445aac97e3f34c6bc9e3": {
+          "id": "b0c8eb69da28445aac97e3f34c6bc9e3",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "7e809209256a406db365467c545756cd": {
+          "id": "7e809209256a406db365467c545756cd",
+          "stepType": "CrudAction",
+          "name": "Comment Issue",
+          "template": "comments=Comment from Virtual Agent:{{vaInputs.issue_action}}",
+          "mode": "update",
+          "record": "1292217876114d6abf67e6be97334b3b",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "7c40af2391444e86ba334a9068809551"
+        },
+        "d7f9172f69d2403cb37a6cabddd7ed5c": {
+          "id": "d7f9172f69d2403cb37a6cabddd7ed5c",
+          "stepType": "CrudAction",
+          "name": "Close Issue",
+          "template": "state=3^comments=Comment via Virtual Agent: {{vaInputs.issue_action}}",
+          "mode": "update",
+          "record": "1292217876114d6abf67e6be97334b3b",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "058732eac69a4912b0ba7c9e9f740797"
+        },
+        "c5c6ddce08d242fbad15933685b32546": {
+          "id": "c5c6ddce08d242fbad15933685b32546",
+          "stepType": "RecordOutput",
+          "name": "Show Updated Issue",
+          "variableId": "1292217876114d6abf67e6be97334b3b",
+          "mode": "variable",
+          "tableName": "x_snc_safety_emea_issue",
+          "fields": [
+            "number",
+            "work_notes",
+            "state",
+            "priority"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "variable",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "40ac8bbdf47f4af49b750b4cd1449743",
+          "edgeType": "Edge",
+          "source": "ed4a1176b24d4817b92e7c42f3dcfe55",
+          "target": "ddd282e6ae5447dbb0c4c404b0aac53e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "fb4ade75796442ae8e4542ea26b7b044",
+          "edgeType": "Edge",
+          "source": "ddd282e6ae5447dbb0c4c404b0aac53e",
+          "target": "2673dc9393d74ef2b781145c41c38f1b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b7180ce79f154021a3af085f61238384",
+          "edgeType": "Edge",
+          "source": "2673dc9393d74ef2b781145c41c38f1b",
+          "target": "f4ff5c52f260414480e78001d1ec0028",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d3fe27c439e9462797764746ea4370cb",
+          "edgeType": "Edge",
+          "source": "f4ff5c52f260414480e78001d1ec0028",
+          "target": "b0c8eb69da28445aac97e3f34c6bc9e3",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0bc15e5fb13b4b12a88711394b6f6b9f",
+          "edgeType": "Branch",
+          "source": "b0c8eb69da28445aac97e3f34c6bc9e3",
+          "target": "b73d0cb7801b42d584d28b8f7cdc7ce6",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "issue_action=no^ORissue_action=nothing^ORissue_actionISEMPTY",
+            "mode": "query"
+          },
+          "label": "No action"
+        },
+        {
+          "id": "0209c17ca6fa4ef980916f748b479960",
+          "edgeType": "Branch",
+          "source": "b0c8eb69da28445aac97e3f34c6bc9e3",
+          "target": "7e809209256a406db365467c545756cd",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "issue_actionISNOTEMPTY^issue_actionNOT LIKEclose",
+            "mode": "query"
+          },
+          "label": "Comment"
+        },
+        {
+          "id": "2e36c1d7503e417299d0645b042bba30",
+          "edgeType": "Edge",
+          "source": "7e809209256a406db365467c545756cd",
+          "target": "b73d0cb7801b42d584d28b8f7cdc7ce6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c106ff6bd8ff4ba4970050a90656697f",
+          "edgeType": "Branch",
+          "source": "b0c8eb69da28445aac97e3f34c6bc9e3",
+          "target": "d7f9172f69d2403cb37a6cabddd7ed5c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "issue_actionLIKEclose",
+            "mode": "query"
+          },
+          "label": "Close and comment"
+        },
+        {
+          "id": "dbd7c2ba4c05451b820e3be616dc1781",
+          "edgeType": "Edge",
+          "source": "d7f9172f69d2403cb37a6cabddd7ed5c",
+          "target": "c5c6ddce08d242fbad15933685b32546",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "641c840aff994a1ebd5f0bdfe8878b7b",
+          "edgeType": "Edge",
+          "source": "c5c6ddce08d242fbad15933685b32546",
+          "target": "b73d0cb7801b42d584d28b8f7cdc7ce6",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "1292217876114d6abf67e6be97334b3b": {
+      "id": "1292217876114d6abf67e6be97334b3b",
+      "name": "lookup_issues",
+      "label": "Lookup Issues",
+      "varType": "reference",
+      "table": "x_snc_safety_emea_issue",
+      "category": "vaInputs"
+    },
+    "6b5c710041c64cb2a7b9046a1cd02693": {
+      "id": "6b5c710041c64cb2a7b9046a1cd02693",
+      "name": "issue_action",
+      "label": "Issue Action",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "7c40af2391444e86ba334a9068809551": {
+      "id": "7c40af2391444e86ba334a9068809551",
+      "name": "comment_issue",
+      "label": "Comment Issue",
+      "varType": "reference",
+      "table": "",
+      "inactive": true,
+      "category": "vaInputs"
+    },
+    "058732eac69a4912b0ba7c9e9f740797": {
+      "id": "058732eac69a4912b0ba7c9e9f740797",
+      "name": "close_issue",
+      "label": "Close Issue",
+      "varType": "reference",
+      "table": "",
+      "inactive": true,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Show Issues,my issues</key_phrases>
+        <live_agent>false</live_agent>
+        <name>Show Issues</name>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-15 11:10:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1edb6a03db5ea300a63a30d868961910</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Show Issues</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_cb_topic_1edb6a03db5ea300a63a30d868961910</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-15 12:06:02</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=1edb6a03db5ea300a63a30d868961910"/>
+</record_update>

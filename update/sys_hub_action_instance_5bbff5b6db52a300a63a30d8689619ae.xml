@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Safety issue approval">b55e7576db52a300a63a30d8689619a3</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:48</sys_created_on>
+        <sys_id>5bbff5b6db52a300a63a30d8689619ae</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_hub_action_instance_5bbff5b6db52a300a63a30d8689619ae</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:20:04</sys_updated_on>
+        <ui_id>29c55ac5-1ab4-4798-81e3-be8d1dbd3019</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5bbff5b6db52a300a63a30d8689619ae"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bbff5b6db52a300a63a30d8689619ae</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:48</sys_created_on>
+        <sys_id>1bbff5b6db52a300a63a30d8689619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:48</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bbff5b6db52a300a63a30d8689619ae</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:58</sys_created_on>
+        <sys_id>21cf39b6db52a300a63a30d868961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:58</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bbff5b6db52a300a63a30d8689619ae</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:48</sys_created_on>
+        <sys_id>57bff5b6db52a300a63a30d8689619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:48</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bbff5b6db52a300a63a30d8689619ae</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:58</sys_created_on>
+        <sys_id>6dcf39b6db52a300a63a30d868961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:58</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bbff5b6db52a300a63a30d8689619ae</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:48</sys_created_on>
+        <sys_id>9fbff5b6db52a300a63a30d8689619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:48</sys_updated_on>
+        <value>x_snc_safety_emea_issue</value>
+        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bbff5b6db52a300a63a30d8689619ae</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:58</sys_created_on>
+        <sys_id>a5cf39b6db52a300a63a30d868961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:58</sys_updated_on>
+        <value>x_snc_safety_emea_issue</value>
+        <variable display_value="">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bbff5b6db52a300a63a30d8689619ae</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:48</sys_created_on>
+        <sys_id>dbbff5b6db52a300a63a30d8689619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:48</sys_updated_on>
+        <value/>
+        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bbff5b6db52a300a63a30d8689619ae</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:58</sys_created_on>
+        <sys_id>e1cf39b6db52a300a63a30d868961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:58</sys_updated_on>
+        <value/>
+        <variable display_value="">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5bbff5b6db52a300a63a30d8689619ae"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>5bbff5b6db52a300a63a30d8689619ae</id>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:48</sys_created_on>
+        <sys_id>13bff5b6db52a300a63a30d8689619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value>ApprovesAnyU[{{Updated_1.current.opened_by}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>5bbff5b6db52a300a63a30d8689619ae</id>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:58</sys_created_on>
+        <sys_id>29cf39b6db52a300a63a30d868961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyU[{{Updated_1.current.opened_by}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>5bbff5b6db52a300a63a30d8689619ae</id>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:58</sys_created_on>
+        <sys_id>2dcf39b6db52a300a63a30d868961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>5bbff5b6db52a300a63a30d8689619ae</id>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:48</sys_created_on>
+        <sys_id>9fbff5b6db52a300a63a30d8689619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>5bbff5b6db52a300a63a30d8689619ae</id>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:58</sys_created_on>
+        <sys_id>65cf39b6db52a300a63a30d868961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>5bbff5b6db52a300a63a30d8689619ae</id>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:48</sys_created_on>
+        <sys_id>5fbff5b6db52a300a63a30d8689619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>5bbff5b6db52a300a63a30d8689619ae</id>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:48</sys_created_on>
+        <sys_id>d7bff5b6db52a300a63a30d8689619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>5bbff5b6db52a300a63a30d8689619ae</id>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:58</sys_created_on>
+        <sys_id>edcf39b6db52a300a63a30d868961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5bbff5b6db52a300a63a30d8689619ae</id>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:48</sys_created_on>
+        <sys_id>9bbff5b6db52a300a63a30d8689619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5bbff5b6db52a300a63a30d8689619ae</id>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:58</sys_created_on>
+        <sys_id>a1cf39b6db52a300a63a30d868961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>5bbff5b6db52a300a63a30d8689619ae</id>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:48</sys_created_on>
+        <sys_id>d3bff5b6db52a300a63a30d8689619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>5bbff5b6db52a300a63a30d8689619ae</id>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 13:18:58</sys_created_on>
+        <sys_id>e9cf39b6db52a300a63a30d868961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-14 13:18:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

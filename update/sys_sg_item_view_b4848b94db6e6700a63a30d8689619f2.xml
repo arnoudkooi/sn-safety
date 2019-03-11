@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="Active Safety Issues">80584afedb52a300a63a30d8689619b5</data_item>
+        <dependency_fields>number,active,short_description,category,approval,opened_by</dependency_fields>
+        <item_view_json>{"Type":"ViewGroup","Margin":{"Top":17,"Bottom":15},"Orientation":"Vertical","Alignment":"Stretch","Distribution":"Auto","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Equal","Children":[{"Type":"ViewGroup","Margin":{"Right":12},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"Text","CornerRadius":2,"BackgroundColor":"#f1f1f1","Height":21,"Width":100,"Margin":{},"studio_template_field_id":"E1","Text":"","TextColor":"#293e40","TextAlignment":"Center","MaxLines":1,"Font":{"Weight":"semibold","Size":13},"CellId":"number"}]},{"Type":"ViewGroup","Margin":{},"Orientation":"Vertical","Alignment":"Right","Distribution":"Auto","Children":[{"Type":"Text","Margin":{},"studio_template_field_id":"E2","Text":"","TextColor":"#7d8a8c","TextAlignment":"Right","MaxLines":1,"Font":{"Weight":"regular","Size":13},"CellId":"active"}]}]},{"Type":"Text","Margin":{"Top":9},"TextColor":"#293e40","TextAlignment":"Left","MaxLines":2,"Font":{"Weight":"regular","Size":18},"studio_template_field_id":"E3","Text":"","CellId":"short_description"},{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"ViewGroup","Margin":{"Top":9},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","Margin":{"Right":8},"studio_template_is_label":true,"studio_template_field_id":"E4","TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Text":"${approval}"},{"Type":"Image","CornerRadius":11,"Height":22,"Width":22,"Margin":{"Right":6},"studio_template_field_id":"E5","Scaling":"Fill","CellId":"category"},{"Type":"Text","Margin":{},"studio_template_field_id":"E4","Text":"","TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"CellId":"approval"}]},{"Type":"ViewGroup","Margin":{"Top":7},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","studio_template_is_label":true,"studio_template_field_id":"E6","TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Margin":{"Right":8},"Text":"${opened_by}"},{"Type":"Text","Margin":{},"studio_template_field_id":"E6","Text":"","TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"CellId":"opened_by"}]}]}],"studio_card_id":"9599488923452300a8ed7f4fc7bf652e"}</item_view_json>
+        <name>Agfa incidents item view</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>rene.deboer</sys_created_by>
+        <sys_created_on>2018-12-19 10:10:11</sys_created_on>
+        <sys_id>b4848b94db6e6700a63a30d8689619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agfa incidents item view</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_item_view_b4848b94db6e6700a63a30d8689619f2</sys_update_name>
+        <sys_updated_by>rene.deboer</sys_updated_by>
+        <sys_updated_on>2018-12-19 10:10:11</sys_updated_on>
+        <ui_styles/>
+    </sys_sg_item_view>
+    <sys_translated_text action="delete_multiple" query="documentkey=b4848b94db6e6700a63a30d8689619f2"/>
+</record_update>

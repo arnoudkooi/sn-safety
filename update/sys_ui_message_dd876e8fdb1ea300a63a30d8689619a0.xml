@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <key>Thanks, we will follow up asap, below are the details of your issue.</key>
+        <language>en</language>
+        <message>Thanks, we will follow up asap, below are the details of your issue.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-15 10:51:06</sys_created_on>
+        <sys_id>dd876e8fdb1ea300a63a30d8689619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Thanks, we will follow up asap, below are the details of your issue.</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_ui_message_dd876e8fdb1ea300a63a30d8689619a0</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-15 10:51:06</sys_updated_on>
+    </sys_ui_message>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Create Issue">013dc7c7db9ea300a63a30d86896192f</button>
+        <item_parameter display_value="Category">173f074bdb9ea300a63a30d868961974</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-15 14:00:54</sys_created_on>
+        <sys_id>2be29bcbdb9ea300a63a30d868961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>173f074bdb9ea300a63a30d868961974</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_2be29bcbdb9ea300a63a30d868961975</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2018-12-15 14:00:54</sys_updated_on>
+        <ui_parameter display_value="Category">188257cbdb9ea300a63a30d8689619cc</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

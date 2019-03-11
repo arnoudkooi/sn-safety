@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="Meetup Issues list">7dc16b8cdb266700a63a30d8689619b2</data_item>
+        <dependency_fields/>
+        <item_view_json/>
+        <name>Incidents for Meetup detail item view</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>rene.deboer</sys_created_by>
+        <sys_created_on>2018-12-18 17:42:18</sys_created_on>
+        <sys_id>8662a3ccdb266700a63a30d86896191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incidents for Meetup detail item view</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_item_view_8662a3ccdb266700a63a30d86896191a</sys_update_name>
+        <sys_updated_by>rene.deboer</sys_updated_by>
+        <sys_updated_on>2018-12-18 17:42:18</sys_updated_on>
+        <ui_styles/>
+    </sys_sg_item_view>
+    <sys_translated_text action="delete_multiple" query="documentkey=8662a3ccdb266700a63a30d86896191a"/>
+</record_update>

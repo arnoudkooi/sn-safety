@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_default_reg">
+    <sys_push_notif_default_reg action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_push_notif_default_reg</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-01-21 17:09:34</sys_created_on>
+        <sys_event_email_action_id display_value="New Safety Issue">8040e687dbc7230038b652f8f4961993</sys_event_email_action_id>
+        <sys_id>fbe022c7dbc7230038b652f8f4961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_push_application_id/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_push_notif_default_reg_fbe022c7dbc7230038b652f8f4961977</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-01-21 17:09:34</sys_updated_on>
+    </sys_push_notif_default_reg>
+</record_update>
