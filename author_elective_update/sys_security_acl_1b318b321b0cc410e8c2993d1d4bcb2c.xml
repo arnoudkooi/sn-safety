@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_snc_safety_emea_dummy</description>
+        <name>x_snc_safety_emea_dummy</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-09-26 14:06:01</sys_created_on>
+        <sys_id>1b318b321b0cc410e8c2993d1d4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_safety_emea_dummy</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_security_acl_1b318b321b0cc410e8c2993d1d4bcb2c</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-09-26 14:06:01</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">2106b9bedb12a300a63a30d8689619a5</application>
+        <file_path/>
+        <instance_id>6e8c95dbdb2d2f006578f22ebf961906</instance_id>
+        <instance_name>platformemea</instance_name>
+        <name>sys_security_acl_1b318b321b0cc410e8c2993d1d4bcb2c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_safety_emea_dummy</description><name>x_snc_safety_emea_dummy</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>arnoud.kooi</sys_created_by><sys_created_on>2019-09-26 14:06:01</sys_created_on><sys_id>1b318b321b0cc410e8c2993d1d4bcb2c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_safety_emea_dummy</sys_name><sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package><sys_policy/><sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope><sys_update_name>sys_security_acl_1b318b321b0cc410e8c2993d1d4bcb2c</sys_update_name><sys_updated_by>arnoud.kooi</sys_updated_by><sys_updated_on>2019-09-26 14:06:01</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-360743739</payload_hash>
+        <record_name>x_snc_safety_emea_dummy</record_name>
+        <reverted_from/>
+        <source>b26c4202dbdf2300a63a30d868961930</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-09-26 14:06:01</sys_created_on>
+        <sys_id>9b318b321b0cc410e8c2993d1d4bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d6de49c840000001</sys_recorded_at>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-09-26 14:06:01</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>93318b32540cc4105cbdbc17397c8c31</update_guid>
+        <update_guid_history>93318b32540cc4105cbdbc17397c8c31:-360743739</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-11-28 21:35:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>88ac7dc4b0fe49dfbb89741bd25034f9</sys_id>
+        <sys_metadata>1b318b321b0cc410e8c2993d1d4bcb2c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_safety_emea_dummy</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_parent display_value="">a7318b321b0cc410e8c2993d1d4bcb69</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_scope_delete display_value="">60727b9c59124fc3807ff335078d6d21</sys_scope_delete>
+        <sys_update_name>sys_security_acl_1b318b321b0cc410e8c2993d1d4bcb2c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_1b318b321b0cc410e8c2993d1d4bcb2c">9b318b321b0cc410e8c2993d1d4bcb31</sys_update_version>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-11-28 21:35:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

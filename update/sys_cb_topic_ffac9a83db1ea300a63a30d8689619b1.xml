@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
     <sys_cb_topic action="INSERT_OR_UPDATE">
         <applicability/>
+        <category/>
         <connect_queue/>
         <description>Report a safety issue</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
         <graph>{
   "graph_api_version": "1.0.10",
   "goals": {
@@ -288,6 +290,9 @@
         <key_phrases>Report Safety Issue,danger,Safety,create,issue</key_phrases>
         <live_agent>false</live_agent>
         <name>Report Safety Issue</name>
+        <nlu_intent/>
+        <nlu_model/>
+        <nlu_provider/>
         <roles/>
         <sys_class_name>sys_cb_topic</sys_class_name>
         <sys_created_by>arnoud.kooi</sys_created_by>

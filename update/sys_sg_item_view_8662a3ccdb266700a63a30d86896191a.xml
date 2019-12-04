@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
     <sys_sg_item_view action="INSERT_OR_UPDATE">
-        <data_item display_value="Meetup Issues list">7dc16b8cdb266700a63a30d8689619b2</data_item>
+        <data_item/>
         <dependency_fields/>
         <item_view_json/>
         <name>Incidents for Meetup detail item view</name>
@@ -17,6 +17,7 @@
         <sys_update_name>sys_sg_item_view_8662a3ccdb266700a63a30d86896191a</sys_update_name>
         <sys_updated_by>rene.deboer</sys_updated_by>
         <sys_updated_on>2018-12-18 17:42:18</sys_updated_on>
+        <table/>
         <ui_styles/>
     </sys_sg_item_view>
     <sys_translated_text action="delete_multiple" query="documentkey=8662a3ccdb266700a63a30d86896191a"/>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="DELETE">
+        <applet_launcher display_value="Safety Issues">3e7713091beb3300e8c2993d1d4bcb8f</applet_launcher>
+        <order>20</order>
+        <section display_value="">3b5ac694db884c50253852f8f496199d</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-09-18 15:41:29</sys_created_on>
+        <sys_id>b35a8a94db884c50253852f8f49619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_b35a8a94db884c50253852f8f49619d5</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-09-18 15:41:29</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">2106b9bedb12a300a63a30d8689619a5</application>
+        <file_path/>
+        <instance_id>6e8c95dbdb2d2f006578f22ebf961906</instance_id>
+        <instance_name>platformemea</instance_name>
+        <name>sys_sg_applet_launcher_m2m_section_b35a8a94db884c50253852f8f49619d5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section"><sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE"><applet_launcher display_value="Safety Issues">3e7713091beb3300e8c2993d1d4bcb8f</applet_launcher><order>20</order><section display_value="">3b5ac694db884c50253852f8f496199d</section><sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name><sys_created_by>arnoud.kooi</sys_created_by><sys_created_on>2019-09-18 15:41:29</sys_created_on><sys_id>b35a8a94db884c50253852f8f49619d5</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package><sys_policy/><sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope><sys_update_name>sys_sg_applet_launcher_m2m_section_b35a8a94db884c50253852f8f49619d5</sys_update_name><sys_updated_by>arnoud.kooi</sys_updated_by><sys_updated_on>2019-09-18 15:41:29</sys_updated_on></sys_sg_applet_launcher_m2m_section></record_update>]]></payload>
+        <payload_hash>-1175313304</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b26c4202dbdf2300a63a30d868961930</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-09-18 15:41:29</sys_created_on>
+        <sys_id>775a8a94db884c50253852f8f49619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d4509225c0000001</sys_recorded_at>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-09-18 15:41:29</sys_updated_on>
+        <type>Applet Launcher Sections</type>
+        <update_guid>7f5a8a94af884c50789a071e91517ed6</update_guid>
+        <update_guid_history>7f5a8a94af884c50789a071e91517ed6:-1175313304</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-09-18 15:41:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_applet_launcher_m2m_section">sys_sg_applet_launcher_m2m_section</sys_db_object>
+        <sys_id>c8f7b3a170764d18a052c32c77030b10</sys_id>
+        <sys_metadata>b35a8a94db884c50253852f8f49619d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_scope_delete display_value="">60727b9c59124fc3807ff335078d6d21</sys_scope_delete>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_b35a8a94db884c50253852f8f49619d5</sys_update_name>
+        <sys_update_version display_value="sys_sg_applet_launcher_m2m_section_b35a8a94db884c50253852f8f49619d5">775a8a94db884c50253852f8f49619d7</sys_update_version>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-09-18 15:41:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

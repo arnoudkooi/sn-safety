@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <name>Safet Issue Cape Town</name>
+        <query_condition table="x_snc_safety_emea_issue">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>rene.deboer</sys_created_by>
+        <sys_created_on>2019-02-12 11:15:31</sys_created_on>
+        <sys_id>c2e26642dbebeb00a63a30d868961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safet Issue Cape Town</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_data_item_c2e26642dbebeb00a63a30d868961986</sys_update_name>
+        <sys_updated_by>rene.deboer</sys_updated_by>
+        <sys_updated_on>2019-02-12 11:15:31</sys_updated_on>
+        <table>x_snc_safety_emea_issue</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=c2e26642dbebeb00a63a30d868961986"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">2106b9bedb12a300a63a30d8689619a5</application>
+        <file_path/>
+        <instance_id>6e8c95dbdb2d2f006578f22ebf961906</instance_id>
+        <instance_name>platformemea</instance_name>
+        <name>sys_sg_data_item_c2e26642dbebeb00a63a30d868961986</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description/><group_by/><name>Safet Issue Cape Town</name><query_condition table="x_snc_safety_emea_issue">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>rene.deboer</sys_created_by><sys_created_on>2019-02-12 11:15:31</sys_created_on><sys_id>c2e26642dbebeb00a63a30d868961986</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Safet Issue Cape Town</sys_name><sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package><sys_policy/><sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope><sys_update_name>sys_sg_data_item_c2e26642dbebeb00a63a30d868961986</sys_update_name><sys_updated_by>rene.deboer</sys_updated_by><sys_updated_on>2019-02-12 11:15:31</sys_updated_on><table>x_snc_safety_emea_issue</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=c2e26642dbebeb00a63a30d868961986"/></record_update>]]></payload>
+        <payload_hash>-639633802</payload_hash>
+        <record_name>Safet Issue Cape Town</record_name>
+        <reverted_from/>
+        <source>b26c4202dbdf2300a63a30d868961930</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rene.deboer</sys_created_by>
+        <sys_created_on>2019-02-12 11:15:31</sys_created_on>
+        <sys_id>c2e26642dbebeb00a63a30d868961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>168e16b49ff0000001</sys_recorded_at>
+        <sys_updated_by>rene.deboer</sys_updated_by>
+        <sys_updated_on>2019-02-12 11:15:31</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>0ee26642c0ebeb00f61780ba6ac00a87</update_guid>
+        <update_guid_history>0ee26642c0ebeb00f61780ba6ac00a87:-639633802</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-03-25 10:18:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>1c01e1f33c3a4dc298cd116423a9eec4</sys_id>
+        <sys_metadata>c2e26642dbebeb00a63a30d868961986</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safet Issue Cape Town</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_scope_delete display_value="">60727b9c59124fc3807ff335078d6d21</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_c2e26642dbebeb00a63a30d868961986</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_c2e26642dbebeb00a63a30d868961986">c2e26642dbebeb00a63a30d868961988</sys_update_version>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-03-25 10:18:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

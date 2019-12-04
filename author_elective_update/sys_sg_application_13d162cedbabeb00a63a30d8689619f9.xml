@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_application">
+    <sys_sg_application action="DELETE">
+        <active>true</active>
+        <available_offline>true</available_offline>
+        <default>false</default>
+        <description>This is showing my issue list</description>
+        <icon display_value="file-alt">bed1ea02dbebeb00a63a30d868961962</icon>
+        <name>ISSUE list</name>
+        <order/>
+        <roles/>
+        <sys_class_name>sys_sg_application</sys_class_name>
+        <sys_created_by>rene.deboer</sys_created_by>
+        <sys_created_on>2019-02-12 11:10:57</sys_created_on>
+        <sys_id>13d162cedbabeb00a63a30d8689619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ISSUE list</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_application_13d162cedbabeb00a63a30d8689619f9</sys_update_name>
+        <sys_updated_by>rene.deboer</sys_updated_by>
+        <sys_updated_on>2019-02-12 11:10:57</sys_updated_on>
+    </sys_sg_application>
+    <sys_translated_text action="delete_multiple" query="documentkey=13d162cedbabeb00a63a30d8689619f9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">2106b9bedb12a300a63a30d8689619a5</application>
+        <file_path/>
+        <instance_id>6e8c95dbdb2d2f006578f22ebf961906</instance_id>
+        <instance_name>platformemea</instance_name>
+        <name>sys_sg_application_13d162cedbabeb00a63a30d8689619f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_application"><sys_sg_application action="INSERT_OR_UPDATE"><active>true</active><available_offline>true</available_offline><default>false</default><description>This is showing my issue list</description><icon display_value="file-alt">bed1ea02dbebeb00a63a30d868961962</icon><name>ISSUE list</name><order/><roles/><sys_class_name>sys_sg_application</sys_class_name><sys_created_by>rene.deboer</sys_created_by><sys_created_on>2019-02-12 11:10:57</sys_created_on><sys_id>13d162cedbabeb00a63a30d8689619f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ISSUE list</sys_name><sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package><sys_policy/><sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope><sys_update_name>sys_sg_application_13d162cedbabeb00a63a30d8689619f9</sys_update_name><sys_updated_by>rene.deboer</sys_updated_by><sys_updated_on>2019-02-12 11:10:57</sys_updated_on></sys_sg_application><sys_translated_text action="delete_multiple" query="documentkey=13d162cedbabeb00a63a30d8689619f9"/></record_update>]]></payload>
+        <payload_hash>-142600402</payload_hash>
+        <record_name>ISSUE list</record_name>
+        <reverted_from/>
+        <source>b26c4202dbdf2300a63a30d868961930</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rene.deboer</sys_created_by>
+        <sys_created_on>2019-02-12 11:10:57</sys_created_on>
+        <sys_id>93d162cedbabeb00a63a30d8689619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>168e1671db10000001</sys_recorded_at>
+        <sys_updated_by>rene.deboer</sys_updated_by>
+        <sys_updated_on>2019-02-12 11:10:57</sys_updated_on>
+        <type>Mobile Application</type>
+        <update_guid>dbd162ce14abeb0046dc36d4e52ae2fc</update_guid>
+        <update_guid_history>dbd162ce14abeb0046dc36d4e52ae2fc:-142600402</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-03-25 10:18:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_application">sys_sg_application</sys_db_object>
+        <sys_id>66f6f763bc8d49bc88e9d7229dde9e24</sys_id>
+        <sys_metadata>13d162cedbabeb00a63a30d8689619f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ISSUE list</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_scope_delete display_value="">60727b9c59124fc3807ff335078d6d21</sys_scope_delete>
+        <sys_update_name>sys_sg_application_13d162cedbabeb00a63a30d8689619f9</sys_update_name>
+        <sys_update_version display_value="sys_sg_application_13d162cedbabeb00a63a30d8689619f9">93d162cedbabeb00a63a30d8689619fd</sys_update_version>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-03-25 10:18:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

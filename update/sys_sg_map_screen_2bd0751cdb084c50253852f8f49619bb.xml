@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_map_screen">
+    <sys_sg_map_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <data_item_table/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
+        <icon display_value="icon-Map">d3d0751cdb084c50253852f8f49619b6</icon>
+        <info/>
+        <location/>
+        <name>Issues by Location</name>
+        <order/>
+        <parent/>
+        <parent_table/>
+        <phone/>
+        <pin_color>#64DDAC</pin_color>
+        <pin_color_type>default</pin_color_type>
+        <roles_override/>
+        <sub_title/>
+        <sys_class_name>sys_sg_map_screen</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-09-18 13:50:03</sys_created_on>
+        <sys_id>2bd0751cdb084c50253852f8f49619bb</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Issues by Location</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_map_screen_2bd0751cdb084c50253852f8f49619bb</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-09-19 09:25:46</sys_updated_on>
+        <tag/>
+        <tag_background_color>#FFFFFF</tag_background_color>
+        <tag_font_color>#FF0000</tag_font_color>
+        <tag_style/>
+        <title/>
+    </sys_sg_map_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=2bd0751cdb084c50253852f8f49619bb"/>
+</record_update>

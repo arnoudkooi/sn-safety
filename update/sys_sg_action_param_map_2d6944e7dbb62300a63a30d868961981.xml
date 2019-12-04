@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
     <sys_sg_action_param_map action="INSERT_OR_UPDATE">
-        <button display_value="CI QR Scan">c95848a7dbb62300a63a30d86896194a</button>
+        <button display_value="Issue - CI QR Lookup">c95848a7dbb62300a63a30d86896194a</button>
         <item_parameter display_value="CI QR Scan Parameter">9e9700a7dbb62300a63a30d8689619e0</item_parameter>
         <sys_class_name>sys_sg_action_param_map</sys_class_name>
         <sys_created_by>arnoud.kooi</sys_created_by>

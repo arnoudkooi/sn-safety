@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_related_lists_screen">
+    <sys_sg_related_lists_screen action="DELETE">
+        <active>true</active>
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <fetch_type>background</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="file-alt">693cf58bdb47230038b652f8f4961910</icon>
+        <name>Related List</name>
+        <order>30</order>
+        <parent>63bac672db92a300a63a30d868961996</parent>
+        <parent_table>sys_sg_map_screen</parent_table>
+        <roles_override/>
+        <show_count>true</show_count>
+        <sys_class_name>sys_sg_related_lists_screen</sys_class_name>
+        <sys_created_by>rene.deboer</sys_created_by>
+        <sys_created_on>2018-12-14 17:12:05</sys_created_on>
+        <sys_id>1825323edbd2a300a63a30d868961910</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Related List</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_related_lists_screen_1825323edbd2a300a63a30d868961910</sys_update_name>
+        <sys_updated_by>rene.deboer</sys_updated_by>
+        <sys_updated_on>2019-01-21 14:28:59</sys_updated_on>
+        <table>x_snc_safety_emea_issue</table>
+    </sys_sg_related_lists_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=1825323edbd2a300a63a30d868961910"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">2106b9bedb12a300a63a30d8689619a5</application>
+        <file_path/>
+        <instance_id>6e8c95dbdb2d2f006578f22ebf961906</instance_id>
+        <instance_name>platformemea</instance_name>
+        <name>sys_sg_related_lists_screen_1825323edbd2a300a63a30d868961910</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_related_lists_screen"><sys_sg_related_lists_screen action="INSERT_OR_UPDATE"><active>true</active><application_roles/><available_offline>false</available_offline><data_item/><description/><fetch_type>background</fetch_type><hidden>false</hidden><icon display_value="file-alt">693cf58bdb47230038b652f8f4961910</icon><name>Related List</name><order>30</order><parent>63bac672db92a300a63a30d868961996</parent><parent_table>sys_sg_map_screen</parent_table><roles_override/><show_count>true</show_count><sys_class_name>sys_sg_related_lists_screen</sys_class_name><sys_created_by>rene.deboer</sys_created_by><sys_created_on>2018-12-14 17:12:05</sys_created_on><sys_id>1825323edbd2a300a63a30d868961910</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Related List</sys_name><sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package><sys_policy/><sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope><sys_update_name>sys_sg_related_lists_screen_1825323edbd2a300a63a30d868961910</sys_update_name><sys_updated_by>rene.deboer</sys_updated_by><sys_updated_on>2019-01-21 14:28:59</sys_updated_on><table>x_snc_safety_emea_issue</table></sys_sg_related_lists_screen><sys_translated_text action="delete_multiple" query="documentkey=1825323edbd2a300a63a30d868961910"/></record_update>]]></payload>
+        <payload_hash>1680324929</payload_hash>
+        <record_name>Related List</record_name>
+        <reverted_from/>
+        <source>171cc2cedb9f2300a63a30d86896197b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>arnoud.kooi@snc</sys_created_by>
+        <sys_created_on>2019-01-30 23:20:33</sys_created_on>
+        <sys_id>003c8acedb9f2300a63a30d86896194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>168a11067dc0000001</sys_recorded_at>
+        <sys_updated_by>arnoud.kooi@snc</sys_updated_by>
+        <sys_updated_on>2019-01-30 23:20:33</sys_updated_on>
+        <type>Related lists screen</type>
+        <update_guid>e13c798b8a472300a3d5ab61147b4ece</update_guid>
+        <update_guid_history>e13c798b8a472300a3d5ab61147b4ece:-547492528,472c398b2247230087dedbea4c967da5:-1057941879,dd25323effd2a300c9401585b76ee8a5:-1452488958,9425323eced2a300429cf2deba653412:-1613658689</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rene.deboer</sys_created_by>
+        <sys_created_on>2019-03-15 09:56:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_related_lists_screen">sys_sg_related_lists_screen</sys_db_object>
+        <sys_id>53fbe390e4e94f94a06b96aef75f7469</sys_id>
+        <sys_metadata>1825323edbd2a300a63a30d868961910</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Related List</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_scope_delete display_value="">60727b9c59124fc3807ff335078d6d21</sys_scope_delete>
+        <sys_update_name>sys_sg_related_lists_screen_1825323edbd2a300a63a30d868961910</sys_update_name>
+        <sys_update_version display_value="sys_sg_related_lists_screen_1825323edbd2a300a63a30d868961910">003c8acedb9f2300a63a30d86896194c</sys_update_version>
+        <sys_updated_by>rene.deboer</sys_updated_by>
+        <sys_updated_on>2019-03-15 09:56:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

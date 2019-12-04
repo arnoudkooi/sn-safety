@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_ui_config_base">
+    <cxs_table_config action="DELETE">
+        <active>true</active>
+        <agent_intel_tab_active>true</agent_intel_tab_active>
+        <allow_expand_collapse>true</allow_expand_collapse>
+        <cxs_context_config/>
+        <enable_source_selector>true</enable_source_selector>
+        <limit>10</limit>
+        <match_condition table="x_snc_safety_emea_issue">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </match_condition>
+        <name>Issue [x_snc_safety_emea_issue]</name>
+        <preview_button_active>true</preview_button_active>
+        <related_search_active>true</related_search_active>
+        <results_header_text>Knowledge results</results_header_text>
+        <results_per_page>10</results_per_page>
+        <search_as_active>false</search_as_active>
+        <search_as_condition/>
+        <search_as_field>assigned_to</search_as_field>
+        <search_as_results_msg>Some results may not be displayed due to security constraints</search_as_results_msg>
+        <search_as_script/>
+        <show_searcher_first>false</show_searcher_first>
+        <sys_class_name>cxs_table_config</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-10-22 07:41:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3b1a3cfdb680010253852f8f496198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Issue [x_snc_safety_emea_issue]</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>cxs_table_config_a3b1a3cfdb680010253852f8f496198f</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-10-22 07:41:00</sys_updated_on>
+        <table>x_snc_safety_emea_issue</table>
+        <ui_type>platform</ui_type>
+    </cxs_table_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=a3b1a3cfdb680010253852f8f496198f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">2106b9bedb12a300a63a30d8689619a5</application>
+        <file_path/>
+        <instance_id>6e8c95dbdb2d2f006578f22ebf961906</instance_id>
+        <instance_name>platformemea</instance_name>
+        <name>cxs_table_config_a3b1a3cfdb680010253852f8f496198f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_ui_config_base"><cxs_table_config action="INSERT_OR_UPDATE"><active>true</active><agent_intel_tab_active>true</agent_intel_tab_active><allow_expand_collapse>true</allow_expand_collapse><cxs_context_config/><enable_source_selector>true</enable_source_selector><limit>10</limit><match_condition table="x_snc_safety_emea_issue">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/></match_condition><name>Issue [x_snc_safety_emea_issue]</name><preview_button_active>true</preview_button_active><related_search_active>true</related_search_active><results_header_text>Knowledge results</results_header_text><results_per_page>10</results_per_page><search_as_active>false</search_as_active><search_as_condition/><search_as_field>assigned_to</search_as_field><search_as_results_msg>Some results may not be displayed due to security constraints</search_as_results_msg><search_as_script/><show_searcher_first>false</show_searcher_first><sys_class_name>cxs_table_config</sys_class_name><sys_created_by>arnoud.kooi</sys_created_by><sys_created_on>2019-10-22 07:41:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a3b1a3cfdb680010253852f8f496198f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Issue [x_snc_safety_emea_issue]</sys_name><sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package><sys_policy/><sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope><sys_update_name>cxs_table_config_a3b1a3cfdb680010253852f8f496198f</sys_update_name><sys_updated_by>arnoud.kooi</sys_updated_by><sys_updated_on>2019-10-22 07:41:00</sys_updated_on><table>x_snc_safety_emea_issue</table><ui_type>platform</ui_type></cxs_table_config><sys_translated_text action="delete_multiple" query="documentkey=a3b1a3cfdb680010253852f8f496198f"/></record_update>]]></payload>
+        <payload_hash>-746434867</payload_hash>
+        <record_name>Issue [x_snc_safety_emea_issue]</record_name>
+        <reverted_from/>
+        <source>b26c4202dbdf2300a63a30d868961930</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-12-04 10:09:13</sys_created_on>
+        <sys_id>9fb02d051be940505118b88cdc4bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ed0629a590000001</sys_recorded_at>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-12-04 10:09:13</sys_updated_on>
+        <type>Table Configuration</type>
+        <update_guid>747263430ba80010093ed8db03a7b312</update_guid>
+        <update_guid_history>747263430ba80010093ed8db03a7b312:3386524,747263430ba80010093ed8db03a7b312:3386524</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Issue [x_snc_safety_emea_issue]">33b06d051be940505118b88cdc4bcb3a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-12-04 10:09:15</sys_created_on>
+        <sys_db_object display_value="" name="cxs_table_config">cxs_table_config</sys_db_object>
+        <sys_id>262b6d8867a14573944cd383dc2ca381</sys_id>
+        <sys_metadata>a3b1a3cfdb680010253852f8f496198f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Issue [x_snc_safety_emea_issue]</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_scope_delete display_value="">60727b9c59124fc3807ff335078d6d21</sys_scope_delete>
+        <sys_update_name>cxs_table_config_a3b1a3cfdb680010253852f8f496198f</sys_update_name>
+        <sys_update_version display_value="cxs_table_config_a3b1a3cfdb680010253852f8f496198f">9fb02d051be940505118b88cdc4bcb9a</sys_update_version>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-12-04 10:09:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

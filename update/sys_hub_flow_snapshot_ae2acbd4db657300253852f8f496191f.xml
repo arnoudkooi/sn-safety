@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>safety_issue_approval</internal_name>
+        <label_cache>[{"name":"29c55ac5-1ab4-4798-81e3-be8d1dbd3019.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Updated_1.current","label":"Trigger➛Issue Record","reference":"x_snc_safety_emea_issue","reference_display":"Issue","type":"reference","base_type":"reference"},{"name":"Updated_1.current.opened_by","label":"Trigger➛Issue Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_safety_emea_issue","column_name":"opened_by"},{"name":"96c559de-6485-4187-8664-f85a67cf9f72.record","label":"2.1➛Issue Record","reference":"x_snc_safety_emea_issue","reference_display":"Issue","type":"reference","base_type":"reference"},{"name":"96c559de-6485-4187-8664-f85a67cf9f72.table_name","label":"2.1➛Issue Table","reference":"x_snc_safety_emea_issue","reference_display":"Issue","type":"table_name","base_type":"table_name"},{"name":"f738c418-86a9-4ec2-afbe-b52abb1fc5f5.record","label":"3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"f738c418-86a9-4ec2-afbe-b52abb1fc5f5.table_name","label":"3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <master>true</master>
+        <name>Safety issue approval</name>
+        <outputs/>
+        <parent_flow display_value="Safety issue approval">b55e7576db52a300a63a30d8689619a3</parent_flow>
+        <remote_trigger_id>5ecf79b6db52a300a63a30d86896195c</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-05-17 13:43:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ae2acbd4db657300253852f8f496191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safety issue approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_ae2acbd4db657300253852f8f496191f</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-05-17 13:43:14</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=ae2acbd4db657300253852f8f496191f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ae2acbd4db657300253852f8f496191f"/>
+</record_update>

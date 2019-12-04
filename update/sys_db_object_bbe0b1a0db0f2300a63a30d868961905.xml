@@ -3,6 +3,7 @@
         <access>public</access>
         <actions_access>false</actions_access>
         <alter_access>false</alter_access>
+        <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
         <create_access>false</create_access>
@@ -16,6 +17,7 @@
         <number_ref display_value="INV">821135a0db0f2300a63a30d86896195a</number_ref>
         <provider_class/>
         <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
         <super_class display_value="Asset" name="alm_asset">aada1406db932300a63a30d8689619cc</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
@@ -32,7 +34,7 @@
         <sys_updated_by>arnoud.kooi</sys_updated_by>
         <sys_updated_on>2019-01-18 14:14:22</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_snc_safety.user" name="x_snc_safety.user">3506bdbedb12a300a63a30d8689619a5</user_role>
+        <user_role/>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

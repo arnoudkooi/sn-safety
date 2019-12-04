@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_detail_screen">
+    <sys_sg_master_detail_screen action="DELETE">
+        <application_roles>x_snc_safety.user</application_roles>
+        <available_offline>true</available_offline>
+        <data_item display_value="issues active">80584afedb52a300a63a30d8689619b5</data_item>
+        <description>List of active issues</description>
+        <dynamic_prefetch_count/>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
+        <icon display_value="list-alt">b7290632db92a300a63a30d86896197d</icon>
+        <name>Issue List</name>
+        <order>10</order>
+        <parent>97e70afedb52a300a63a30d86896191b</parent>
+        <parent_table>sys_sg_folder</parent_table>
+        <roles_override>x_snc_safety_emea.agent</roles_override>
+        <sys_class_name>sys_sg_master_detail_screen</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2018-12-14 14:00:06</sys_created_on>
+        <sys_id>0c394632db92a300a63a30d868961923</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Issue List</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_master_detail_screen_0c394632db92a300a63a30d868961923</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-01-21 16:09:33</sys_updated_on>
+    </sys_sg_master_detail_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=0c394632db92a300a63a30d868961923"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">2106b9bedb12a300a63a30d8689619a5</application>
+        <file_path/>
+        <instance_id>6e8c95dbdb2d2f006578f22ebf961906</instance_id>
+        <instance_name>platformemea</instance_name>
+        <name>sys_sg_master_detail_screen_0c394632db92a300a63a30d868961923</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_detail_screen"><sys_sg_master_detail_screen action="DELETE"><application_roles>x_snc_safety.user</application_roles><available_offline>true</available_offline><data_item display_value="issues active">80584afedb52a300a63a30d8689619b5</data_item><description>List of active issues</description><dynamic_prefetch_count/><fetch_type>not_required</fetch_type><hidden>false</hidden><hide_filters>false</hide_filters><icon display_value="list-alt">b7290632db92a300a63a30d86896197d</icon><name>Issue List</name><order>10</order><parent>97e70afedb52a300a63a30d86896191b</parent><parent_table>sys_sg_folder</parent_table><roles_override>x_snc_safety_emea.agent</roles_override><sys_class_name>sys_sg_master_detail_screen</sys_class_name><sys_created_by>arnoud.kooi</sys_created_by><sys_created_on>2018-12-14 14:00:06</sys_created_on><sys_id>0c394632db92a300a63a30d868961923</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Issue List</sys_name><sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package><sys_policy/><sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope><sys_update_name>sys_sg_master_detail_screen_0c394632db92a300a63a30d868961923</sys_update_name><sys_updated_by>arnoud.kooi</sys_updated_by><sys_updated_on>2019-01-21 16:09:33</sys_updated_on></sys_sg_master_detail_screen><sys_translated_text action="delete_multiple" query="documentkey=0c394632db92a300a63a30d868961923"/></record_update>]]></payload>
+        <payload_hash>1879087137</payload_hash>
+        <record_name>Issue List</record_name>
+        <reverted_from/>
+        <source>b26c4202dbdf2300a63a30d868961930</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-08-27 08:42:25</sys_created_on>
+        <sys_id>6a7713091beb3300e8c2993d1d4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cd23d90810000001</sys_recorded_at>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-08-27 08:42:25</sys_updated_on>
+        <type>Master-detail screen</type>
+        <update_guid>62771309faeb33001db020e6701e4564</update_guid>
+        <update_guid_history>62771309faeb33001db020e6701e4564:1879087137,3e33120f138723002ad95f40d30495cc:-2093322791,518196cbb58723000ad9b745e9af1227:-1740258041,a8dece0b788723003816038dec2477ba:-1851102574,a7fa794b64472300985598222b76811e:-317848964,4c3946321492a300537614cf08ae0b25:-728035199</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-08-27 08:42:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_master_detail_screen">sys_sg_master_detail_screen</sys_db_object>
+        <sys_id>1510a0e3a34a4fae908ea17af5689ce1</sys_id>
+        <sys_metadata>0c394632db92a300a63a30d868961923</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Issue List</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_scope_delete display_value="">60727b9c59124fc3807ff335078d6d21</sys_scope_delete>
+        <sys_update_name>sys_sg_master_detail_screen_0c394632db92a300a63a30d868961923</sys_update_name>
+        <sys_update_version display_value="sys_sg_master_detail_screen_0c394632db92a300a63a30d868961923">6a7713091beb3300e8c2993d1d4bcb64</sys_update_version>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-08-27 08:42:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

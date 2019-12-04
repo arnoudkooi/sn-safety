@@ -3,30 +3,33 @@
         <add_additional_comment_button>true</add_additional_comment_button>
         <add_attachment_button>true</add_attachment_button>
         <add_work_note_button>true</add_work_note_button>
-        <application_roles>x_snc_safety.user</application_roles>
+        <application_roles/>
         <available_offline>true</available_offline>
-        <data_item display_value="Active Safety Issues">80584afedb52a300a63a30d8689619b5</data_item>
+        <data_item/>
         <description/>
+        <dynamic_prefetch_count/>
         <fetch_type>background</fetch_type>
         <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
         <icon display_value="file-alt">8644febadbd2a300a63a30d8689619ea</icon>
         <name>Activity Stream</name>
-        <order>20</order>
-        <parent>8c394632db92a300a63a30d868961949</parent>
-        <parent_table>sys_sg_master_item</parent_table>
+        <order/>
+        <parent/>
+        <parent_table/>
         <roles_override/>
         <sys_class_name>sys_sg_activity_stream_screen</sys_class_name>
         <sys_created_by>arnoud.kooi</sys_created_by>
         <sys_created_on>2018-12-14 14:50:44</sys_created_on>
         <sys_id>39c416f6db92a300a63a30d868961904</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Activity Stream</sys_name>
         <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
         <sys_update_name>sys_sg_activity_stream_screen_39c416f6db92a300a63a30d868961904</sys_update_name>
         <sys_updated_by>arnoud.kooi</sys_updated_by>
-        <sys_updated_on>2019-01-22 09:48:25</sys_updated_on>
+        <sys_updated_on>2019-09-19 09:58:58</sys_updated_on>
+        <table>x_snc_safety_emea_issue</table>
     </sys_sg_activity_stream_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=39c416f6db92a300a63a30d868961904"/>
 </record_update>

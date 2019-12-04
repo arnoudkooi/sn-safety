@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
     <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
-        <button display_value="CI QR Scan">c95848a7dbb62300a63a30d86896194a</button>
+        <button display_value="Issue - CI QR Lookup">c95848a7dbb62300a63a30d86896194a</button>
         <button_parent_table/>
         <carried>false</carried>
         <constant/>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen">
+    <sys_sg_details_screen action="DELETE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item display_value="Safet Issue Cape Town">c2e26642dbebeb00a63a30d868961986</data_item>
+        <description/>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="file-alt">75942282dbebeb00a63a30d8689619c1</icon>
+        <item_view display_value="Issues list detail item view">4a942282dbebeb00a63a30d8689619c4</item_view>
+        <name>Details</name>
+        <order>10</order>
+        <parent>9294e682dbebeb00a63a30d86896195e</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_details_screen</sys_class_name>
+        <sys_created_by>rene.deboer</sys_created_by>
+        <sys_created_on>2019-02-12 11:22:58</sys_created_on>
+        <sys_id>db94e682dbebeb00a63a30d868961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Details</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_details_screen_db94e682dbebeb00a63a30d868961972</sys_update_name>
+        <sys_updated_by>rene.deboer</sys_updated_by>
+        <sys_updated_on>2019-02-12 11:22:58</sys_updated_on>
+    </sys_sg_details_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=db94e682dbebeb00a63a30d868961972"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">2106b9bedb12a300a63a30d8689619a5</application>
+        <file_path/>
+        <instance_id>6e8c95dbdb2d2f006578f22ebf961906</instance_id>
+        <instance_name>platformemea</instance_name>
+        <name>sys_sg_details_screen_db94e682dbebeb00a63a30d868961972</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen"><sys_sg_details_screen action="INSERT_OR_UPDATE"><application_roles/><available_offline>false</available_offline><data_item display_value="Safet Issue Cape Town">c2e26642dbebeb00a63a30d868961986</data_item><description/><fetch_type>not_required</fetch_type><hidden>false</hidden><icon display_value="file-alt">75942282dbebeb00a63a30d8689619c1</icon><item_view display_value="Issues list detail item view">4a942282dbebeb00a63a30d8689619c4</item_view><name>Details</name><order>10</order><parent>9294e682dbebeb00a63a30d86896195e</parent><parent_table>sys_sg_master_item</parent_table><roles_override/><sys_class_name>sys_sg_details_screen</sys_class_name><sys_created_by>rene.deboer</sys_created_by><sys_created_on>2019-02-12 11:22:58</sys_created_on><sys_id>db94e682dbebeb00a63a30d868961972</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Details</sys_name><sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package><sys_policy/><sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope><sys_update_name>sys_sg_details_screen_db94e682dbebeb00a63a30d868961972</sys_update_name><sys_updated_by>rene.deboer</sys_updated_by><sys_updated_on>2019-02-12 11:22:58</sys_updated_on></sys_sg_details_screen><sys_translated_text action="delete_multiple" query="documentkey=db94e682dbebeb00a63a30d868961972"/></record_update>]]></payload>
+        <payload_hash>1258722370</payload_hash>
+        <record_name>Details</record_name>
+        <reverted_from/>
+        <source>b26c4202dbdf2300a63a30d868961930</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rene.deboer</sys_created_by>
+        <sys_created_on>2019-02-12 11:22:58</sys_created_on>
+        <sys_id>d394e682dbebeb00a63a30d868961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>168e1721cf30000001</sys_recorded_at>
+        <sys_updated_by>rene.deboer</sys_updated_by>
+        <sys_updated_on>2019-02-12 11:22:58</sys_updated_on>
+        <type>Details screen</type>
+        <update_guid>1f94e6824bebeb00ced88924846c3974</update_guid>
+        <update_guid_history>1f94e6824bebeb00ced88924846c3974:1258722370</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-03-25 10:18:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_details_screen">sys_sg_details_screen</sys_db_object>
+        <sys_id>5bd7457a825946a0bdbaa6c77079e659</sys_id>
+        <sys_metadata>db94e682dbebeb00a63a30d868961972</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Details</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_scope_delete display_value="">60727b9c59124fc3807ff335078d6d21</sys_scope_delete>
+        <sys_update_name>sys_sg_details_screen_db94e682dbebeb00a63a30d868961972</sys_update_name>
+        <sys_update_version display_value="sys_sg_details_screen_db94e682dbebeb00a63a30d868961972">d394e682dbebeb00a63a30d868961975</sys_update_version>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-03-25 10:18:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

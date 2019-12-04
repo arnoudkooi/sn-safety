@@ -16,7 +16,7 @@
         <sys_updated_by>arnoud.kooi</sys_updated_by>
         <sys_updated_on>2018-12-19 14:53:23</sys_updated_on>
         <table>x_snc_safety_emea_issue</table>
-        <ui_policy display_value="Short Description Mandatory">8df4086cdbee6700a63a30d86896195b</ui_policy>
+        <ui_policy display_value="issue short description mandatory">8df4086cdbee6700a63a30d86896195b</ui_policy>
         <visible>ignore</visible>
     </sys_sg_ui_policy_rule>
 </record_update>

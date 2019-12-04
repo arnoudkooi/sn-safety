@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="Safety Issues">3e7713091beb3300e8c2993d1d4bcb8f</applet_launcher>
+        <icon display_value="thumbs-down">c7e78ebedb52a300a63a30d8689619d5</icon>
+        <label>Safety Issues</label>
+        <roles>x_snc_safety.user</roles>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-08-27 08:42:26</sys_created_on>
+        <sys_id>b27713091beb3300e8c2993d1d4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safety Issues</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_b27713091beb3300e8c2993d1d4bcb92</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-08-27 08:42:26</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>

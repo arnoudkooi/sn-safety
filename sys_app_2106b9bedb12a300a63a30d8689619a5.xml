@@ -3,6 +3,7 @@
         <active>true</active>
         <can_edit_in_studio>false</can_edit_in_studio>
         <enforce_license>log</enforce_license>
+        <guided_setup_guid/>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
         <license_category>none</license_category>
@@ -29,7 +30,7 @@
         <sys_updated_on>2018-12-14 12:36:23</sys_updated_on>
         <template/>
         <trackable>true</trackable>
-        <user_role display_value="x_snc_safety.user" name="x_snc_safety.user">3506bdbedb12a300a63a30d8689619a5</user_role>
+        <user_role/>
         <vendor/>
         <vendor_prefix/>
         <version>1.0.0</version>

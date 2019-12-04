@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
     <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
-        <button display_value="Add  Picture">a965d68fdb87230038b652f8f4961979</button>
+        <button display_value="Issue - Add  Picture">a965d68fdb87230038b652f8f4961979</button>
         <button_parent_table/>
         <carried>false</carried>
         <constant/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_folder">
     <sys_sg_folder action="INSERT_OR_UPDATE">
-        <application display_value="Safety Issue">17e70afedb52a300a63a30d86896191a</application>
+        <application display_value="Safety Issues">17e70afedb52a300a63a30d86896191a</application>
         <name/>
         <order>1</order>
         <sys_class_name>sys_sg_folder</sys_class_name>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>ramesh.jalla@snc</sys_created_by>
+        <sys_created_on>2019-11-20 10:07:02</sys_created_on>
+        <sys_id>47f99da01b594c10e8c2993d1d4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_safety_emea_test_table.x_snc_safety_emea.x_snc_safety.user</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_security_acl display_value="x_snc_safety_emea_test_table">72f99da01b594c10e8c2993d1d4bcb14</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_47f99da01b594c10e8c2993d1d4bcb18</sys_update_name>
+        <sys_updated_by>ramesh.jalla@snc</sys_updated_by>
+        <sys_updated_on>2019-11-20 10:07:02</sys_updated_on>
+        <sys_user_role display_value="x_snc_safety_emea.x_snc_safety.user" name="x_snc_safety_emea.x_snc_safety.user">3506bdbedb12a300a63a30d8689619a5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">2106b9bedb12a300a63a30d8689619a5</application>
+        <file_path/>
+        <instance_id>6e8c95dbdb2d2f006578f22ebf961906</instance_id>
+        <instance_name>platformemea</instance_name>
+        <name>sys_security_acl_role_47f99da01b594c10e8c2993d1d4bcb18</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>ramesh.jalla@snc</sys_created_by><sys_created_on>2019-11-20 10:07:02</sys_created_on><sys_id>47f99da01b594c10e8c2993d1d4bcb18</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_safety_emea_test_table.x_snc_safety_emea.x_snc_safety.user</sys_name><sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package><sys_policy/><sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope><sys_security_acl display_value="x_snc_safety_emea_test_table">72f99da01b594c10e8c2993d1d4bcb14</sys_security_acl><sys_update_name>sys_security_acl_role_47f99da01b594c10e8c2993d1d4bcb18</sys_update_name><sys_updated_by>ramesh.jalla@snc</sys_updated_by><sys_updated_on>2019-11-20 10:07:02</sys_updated_on><sys_user_role display_value="x_snc_safety_emea.x_snc_safety.user" name="x_snc_safety_emea.x_snc_safety.user">3506bdbedb12a300a63a30d8689619a5</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1805492649</payload_hash>
+        <record_name>x_snc_safety_emea_test_table.x_snc_safety_emea.x_snc_safety.user</record_name>
+        <reverted_from/>
+        <source>b26c4202dbdf2300a63a30d868961930</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ramesh.jalla@snc</sys_created_by>
+        <sys_created_on>2019-11-20 10:07:02</sys_created_on>
+        <sys_id>0bf99da01b594c10e8c2993d1d4bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e884794aa0000001</sys_recorded_at>
+        <sys_updated_by>ramesh.jalla@snc</sys_updated_by>
+        <sys_updated_on>2019-11-20 10:07:02</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>03f99da0ca594c1067b1edaf9a1e1642</update_guid>
+        <update_guid_history>03f99da0ca594c1067b1edaf9a1e1642:1805492649</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_safety_emea_test_table.x_snc_safety_emea.x_snc_safety.user">b68ef87e1b190810fbbd0d8cdc4bcb23</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rene.deboer</sys_created_by>
+        <sys_created_on>2019-11-27 07:53:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>04c0f26aeef041e097ef5484df7ae900</sys_id>
+        <sys_metadata>47f99da01b594c10e8c2993d1d4bcb18</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_safety_emea_test_table.x_snc_safety_emea.x_snc_safety.user</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_parent display_value="">72f99da01b594c10e8c2993d1d4bcb14</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_scope_delete display_value="">60727b9c59124fc3807ff335078d6d21</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_47f99da01b594c10e8c2993d1d4bcb18</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_47f99da01b594c10e8c2993d1d4bcb18">0bf99da01b594c10e8c2993d1d4bcb42</sys_update_version>
+        <sys_updated_by>rene.deboer</sys_updated_by>
+        <sys_updated_on>2019-11-27 07:53:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

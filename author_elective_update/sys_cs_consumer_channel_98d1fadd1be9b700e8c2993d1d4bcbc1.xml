@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_consumer_channel">
+    <sys_cs_consumer_channel action="DELETE">
+        <channel_group>TAA7VQUBD</channel_group>
+        <channel_info>{"userId":"UEVMEMBA9"}</channel_info>
+        <channel_type>slack</channel_type>
+        <channel_user>DEVFJRYMQ</channel_user>
+        <consumer/>
+        <consumer_account/>
+        <control/>
+        <field_name/>
+        <profile/>
+        <provider_user_id>slack:TAA7VQUBD:UEVMEMBA9</provider_user_id>
+        <session/>
+        <sys_class_name>sys_cs_consumer_channel</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-05-20 14:30:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>98d1fadd1be9b700e8c2993d1d4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>sys_cs_consumer_channel_98d1fadd1be9b700e8c2993d1d4bcbc1</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-05-20 14:30:47</sys_updated_on>
+        <task/>
+        <timezone>GMT+02:00</timezone>
+        <user_id>UEVMEMBA9</user_id>
+        <user_name>NowTester</user_name>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <version>1</version>
+    </sys_cs_consumer_channel>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">2106b9bedb12a300a63a30d8689619a5</application>
+        <file_path/>
+        <instance_id>6e8c95dbdb2d2f006578f22ebf961906</instance_id>
+        <instance_name>platformemea</instance_name>
+        <name>sys_cs_consumer_channel_98d1fadd1be9b700e8c2993d1d4bcbc1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_consumer_channel"><sys_cs_consumer_channel action="INSERT_OR_UPDATE"><channel_group>TAA7VQUBD</channel_group><channel_info>{"userId":"UEVMEMBA9"}</channel_info><channel_type>slack</channel_type><channel_user>DEVFJRYMQ</channel_user><consumer/><consumer_account/><control/><field_name/><profile/><provider_user_id>slack:TAA7VQUBD:UEVMEMBA9</provider_user_id><session/><sys_class_name>sys_cs_consumer_channel</sys_class_name><sys_created_by>arnoud.kooi</sys_created_by><sys_created_on>2019-05-20 14:30:47</sys_created_on><sys_domain>global</sys_domain><sys_id>98d1fadd1be9b700e8c2993d1d4bcbc1</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package><sys_policy/><sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope><sys_update_name>sys_cs_consumer_channel_98d1fadd1be9b700e8c2993d1d4bcbc1</sys_update_name><sys_updated_by>arnoud.kooi</sys_updated_by><sys_updated_on>2019-05-20 14:30:47</sys_updated_on><task/><timezone>GMT+02:00</timezone><user_id>UEVMEMBA9</user_id><user_name>NowTester</user_name><vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor><version>1</version></sys_cs_consumer_channel></record_update>]]></payload>
+        <payload_hash>-718858693</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b26c4202dbdf2300a63a30d868961930</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-05-20 14:30:47</sys_created_on>
+        <sys_id>d8d1fadd1be9b700e8c2993d1d4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ad5a6ec2a0000001</sys_recorded_at>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-05-20 14:30:47</sys_updated_on>
+        <type>Consumer Channel</type>
+        <update_guid>14d1fadd10e9b700d0ea750d04a05dc3</update_guid>
+        <update_guid_history>14d1fadd10e9b700d0ea750d04a05dc3:-718858693</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-20 17:30:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_consumer_channel">sys_cs_consumer_channel</sys_db_object>
+        <sys_id>65fb113817374418b73540d993982310</sys_id>
+        <sys_metadata>98d1fadd1be9b700e8c2993d1d4bcbc1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_scope_delete display_value="">60727b9c59124fc3807ff335078d6d21</sys_scope_delete>
+        <sys_update_name>sys_cs_consumer_channel_98d1fadd1be9b700e8c2993d1d4bcbc1</sys_update_name>
+        <sys_update_version display_value="sys_cs_consumer_channel_98d1fadd1be9b700e8c2993d1d4bcbc1">d8d1fadd1be9b700e8c2993d1d4bcbc3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-20 17:30:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

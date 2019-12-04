@@ -16,7 +16,7 @@
         <sys_updated_by>arnoud.kooi</sys_updated_by>
         <sys_updated_on>2018-12-15 16:03:24</sys_updated_on>
         <table>x_snc_safety_emea_issue</table>
-        <ui_policy display_value="Hide Due Date">77be630fdbdea300a63a30d8689619e4</ui_policy>
+        <ui_policy display_value="issue hide due date">77be630fdbdea300a63a30d8689619e4</ui_policy>
         <visible>false</visible>
     </sys_sg_ui_policy_rule>
 </record_update>

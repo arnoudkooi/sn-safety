@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_res_context_config">
+    <cxs_res_context_config action="DELETE">
+        <active>true</active>
+        <cxs_context_config display_value="Safety Issues">36226b03dba80010253852f8f496195b</cxs_context_config>
+        <cxs_search_res_config display_value="Questions">9093db329f33310009ca7e50d67fcfb4</cxs_search_res_config>
+        <default_search>false</default_search>
+        <name>social</name>
+        <order>100</order>
+        <search_operator>IR_AND_OR_QUERY</search_operator>
+        <sys_class_name>cxs_res_context_config</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-10-22 07:40:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb326f03dba80010253852f8f4961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safety Issues.Questions</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>cxs_res_context_config_bb326f03dba80010253852f8f4961918</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-10-22 07:40:07</sys_updated_on>
+    </cxs_res_context_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">2106b9bedb12a300a63a30d8689619a5</application>
+        <file_path/>
+        <instance_id>6e8c95dbdb2d2f006578f22ebf961906</instance_id>
+        <instance_name>platformemea</instance_name>
+        <name>cxs_res_context_config_bb326f03dba80010253852f8f4961918</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_res_context_config"><cxs_res_context_config action="INSERT_OR_UPDATE"><active>true</active><cxs_context_config display_value="Safety Issues">36226b03dba80010253852f8f496195b</cxs_context_config><cxs_search_res_config display_value="Questions">9093db329f33310009ca7e50d67fcfb4</cxs_search_res_config><default_search>false</default_search><name>social</name><order>100</order><search_operator>IR_AND_OR_QUERY</search_operator><sys_class_name>cxs_res_context_config</sys_class_name><sys_created_by>arnoud.kooi</sys_created_by><sys_created_on>2019-10-22 07:40:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bb326f03dba80010253852f8f4961918</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Safety Issues.Questions</sys_name><sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package><sys_policy/><sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope><sys_update_name>cxs_res_context_config_bb326f03dba80010253852f8f4961918</sys_update_name><sys_updated_by>arnoud.kooi</sys_updated_by><sys_updated_on>2019-10-22 07:40:07</sys_updated_on></cxs_res_context_config></record_update>]]></payload>
+        <payload_hash>-1923450346</payload_hash>
+        <record_name>social</record_name>
+        <reverted_from/>
+        <source>b26c4202dbdf2300a63a30d868961930</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-10-22 07:40:07</sys_created_on>
+        <sys_id>bb326f03dba80010253852f8f496191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16df268a5800000001</sys_recorded_at>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-10-22 07:40:07</sys_updated_on>
+        <type>Resource Configuration</type>
+        <update_guid>b3326f0361a800109c182fa90d87861a</update_guid>
+        <update_guid_history>b3326f0361a800109c182fa90d87861a:-1923450346</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="social">cbb02d051be940505118b88cdc4bcb86</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-12-04 10:09:12</sys_created_on>
+        <sys_db_object display_value="" name="cxs_res_context_config">cxs_res_context_config</sys_db_object>
+        <sys_id>8b2de9c6f0f94e7a9818d98fda792961</sys_id>
+        <sys_metadata>bb326f03dba80010253852f8f4961918</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safety Issues.Questions</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_scope_delete display_value="">60727b9c59124fc3807ff335078d6d21</sys_scope_delete>
+        <sys_update_name>cxs_res_context_config_bb326f03dba80010253852f8f4961918</sys_update_name>
+        <sys_update_version display_value="cxs_res_context_config_bb326f03dba80010253852f8f4961918">bb326f03dba80010253852f8f496191a</sys_update_version>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-12-04 10:09:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

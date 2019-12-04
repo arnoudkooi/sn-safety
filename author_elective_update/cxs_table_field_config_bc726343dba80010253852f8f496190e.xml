@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_table_field_config">
+    <cxs_table_field_config action="DELETE">
+        <cxs_table_config display_value="Issue [x_snc_safety_emea_issue]">a3b1a3cfdb680010253852f8f496198f</cxs_table_config>
+        <default_config>true</default_config>
+        <field>short_description</field>
+        <name>Short description [short_description]</name>
+        <order>100</order>
+        <sys_class_name>cxs_table_field_config</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-10-22 07:41:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bc726343dba80010253852f8f496190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Short description [short_description]</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_update_name>cxs_table_field_config_bc726343dba80010253852f8f496190e</sys_update_name>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-10-22 07:41:00</sys_updated_on>
+    </cxs_table_field_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">2106b9bedb12a300a63a30d8689619a5</application>
+        <file_path/>
+        <instance_id>6e8c95dbdb2d2f006578f22ebf961906</instance_id>
+        <instance_name>platformemea</instance_name>
+        <name>cxs_table_field_config_bc726343dba80010253852f8f496190e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_table_field_config"><cxs_table_field_config action="INSERT_OR_UPDATE"><cxs_table_config display_value="Issue [x_snc_safety_emea_issue]">a3b1a3cfdb680010253852f8f496198f</cxs_table_config><default_config>true</default_config><field>short_description</field><name>Short description [short_description]</name><order>100</order><sys_class_name>cxs_table_field_config</sys_class_name><sys_created_by>arnoud.kooi</sys_created_by><sys_created_on>2019-10-22 07:41:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bc726343dba80010253852f8f496190e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Short description [short_description]</sys_name><sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package><sys_policy/><sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope><sys_update_name>cxs_table_field_config_bc726343dba80010253852f8f496190e</sys_update_name><sys_updated_by>arnoud.kooi</sys_updated_by><sys_updated_on>2019-10-22 07:41:00</sys_updated_on></cxs_table_field_config></record_update>]]></payload>
+        <payload_hash>-1814774679</payload_hash>
+        <record_name>Short description [short_description]</record_name>
+        <reverted_from/>
+        <source>b26c4202dbdf2300a63a30d868961930</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-10-22 07:41:00</sys_created_on>
+        <sys_id>74726343dba80010253852f8f4961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16df26976860000001</sys_recorded_at>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-10-22 07:41:00</sys_updated_on>
+        <type>Search Field</type>
+        <update_guid>7c72634360a8001016d92796a7d25c10</update_guid>
+        <update_guid_history>7c72634360a8001016d92796a7d25c10:-1814774679</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Short description [short_description]">73b06d051be940505118b88cdc4bcb34</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>arnoud.kooi</sys_created_by>
+        <sys_created_on>2019-12-04 10:09:15</sys_created_on>
+        <sys_db_object display_value="" name="cxs_table_field_config">cxs_table_field_config</sys_db_object>
+        <sys_id>6758171f8fca48ce91fdb1f8bb211504</sys_id>
+        <sys_metadata>bc726343dba80010253852f8f496190e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Short description [short_description]</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety_emea">2106b9bedb12a300a63a30d8689619a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">2106b9bedb12a300a63a30d8689619a5</sys_scope>
+        <sys_scope_delete display_value="">60727b9c59124fc3807ff335078d6d21</sys_scope_delete>
+        <sys_update_name>cxs_table_field_config_bc726343dba80010253852f8f496190e</sys_update_name>
+        <sys_update_version display_value="cxs_table_field_config_bc726343dba80010253852f8f496190e">74726343dba80010253852f8f4961911</sys_update_version>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-12-04 10:09:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
